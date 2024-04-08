@@ -1,3 +1,5 @@
+load("@rules_android//rules:rules.bzl", "android_library")
+
 package(
     default_visibility = ["//src:__subpackages__"],
 )
